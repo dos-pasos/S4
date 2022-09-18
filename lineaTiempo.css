@@ -1,0 +1,42 @@
+/*Tema básico de colores.*/
+
+/*
+Organización: por propiedad.
+  Una propiedad CSS es usada por los elemento html
+  incorporados en el selector
+alcance: el archivo html
+Descripción: Los selectores deben moverse a la propiedad que se requiera.
+  Usted es libre de escribir en el html las clases, o usar los selectores
+  que crea conveniente. Si una propiedad tiene varios selectores y desea
+  modificar una de ellas, entonces cree una nueva línea con el nuevo
+  valor de la propiedad, luego mueva el selector a esa nueva línea.
+  Se permite herencia. Los selectores tienen que ser descriptivos. Estas
+  son independientes de la estructura del HTML
+*/
+body{margin:0;}
+.cabecera{background: #303e49;}
+.cabecera_titulo-pagina{color: #ffffff;}
+.cabecera_titulo-pagina{text-align: center;}
+
+/*
+Organización: por objetos.
+Descripción: se agrupa los selectores por bloques con sus respectivos
+  elementos. Los bloques son independientes de otros bloques.
+  se evita que los bloques hereden las propiedades de sus padres de
+  manera tácita, es decir se debe hacer explícita.
+  De arriba hacia abajo.
+  Se puede añadir paddins y margins, y otros espacios.
+  Son dependientes del html.
+*/
+
+.cabecera{
+  height:100px;
+  line-height: 100px;
+}
+
+.cabecera_titulo-pagina{
+  font-size: 15px;
+  margin: 0;
+  font-family: "Droid Serif","Open Sans", serif,sans-serif;
+}
+  
