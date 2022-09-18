@@ -13,9 +13,9 @@ Descripción: Los selectores deben moverse a la propiedad que se requiera.
   Se permite herencia. Los selectores tienen que ser descriptivos. Estas
   son independientes de la estructura del HTML
 */
-body{margin:0;}
 .cabecera{background: #303e49;}
 .cabecera_titulo-pagina{color: #ffffff;}
+body{margin:0;}
 .cabecera_titulo-pagina{text-align: center;}
 
 /*
@@ -24,19 +24,35 @@ Descripción: se agrupa los selectores por bloques con sus respectivos
   elementos. Los bloques son independientes de otros bloques.
   se evita que los bloques hereden las propiedades de sus padres de
   manera tácita, es decir se debe hacer explícita.
-  De arriba hacia abajo.
+  De arriba hacia abajo. En caso de que se tenga sub elementos, volver
+  los pixeles base.
   Se puede añadir paddins y margins, y otros espacios.
   Son dependientes del html.
 */
 
+/*Cabecera
+Padre el body
+*/
+@media screen and (max-width:500px) {
+  .cabecera{font-size: 16px;}
+}
+
+@media screen and (min-width:501px) and (max-width:900px){
+  .cabecera{font-size: 24px;}
+}
+
+@media screen and (min-width:901px){
+  .cabecera{font-size: 32px;}
+}
 .cabecera{
-  height:100px;
-  line-height: 100px;
+  height:7em;
+  line-height: 7em;
 }
 
 .cabecera_titulo-pagina{
-  font-size: 15px;
+  font-size: 1em;
   margin: 0;
   font-family: "Droid Serif","Open Sans", serif,sans-serif;
 }
+
   
