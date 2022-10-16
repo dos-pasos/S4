@@ -24,6 +24,10 @@ Descripción: Los selectores deben moverse a la propiedad que se requiera.
 .int-thabata__leer-mas, .int-cielo__leer-mas,
 .int-vanessa__leer-mas, .int-esly__leer-mas {background-color: #acb7c0;}
 
+.int-liz__foto, .int-fiorella__foto, 
+.int-thabata__foto, .int-cielo__foto, 
+.int-vanessa__foto, .int-esly__foto{border-color: #ffffff;}/**/
+
 .cabecera_titulo-pagina,
 .int-liz__leer-mas, .int-fiorella__leer-mas,
 .int-thabata__leer-mas, .int-cielo__leer-mas,
@@ -66,15 +70,41 @@ Padre el body
   font-family: "Droid Serif","Open Sans", serif,sans-serif;
 }
 
+.int-liz__foto, .int-fiorella__foto, 
+.int-thabata__foto, .int-cielo__foto, 
+.int-vanessa__foto, .int-esly__foto{
+  border-radius: 50%;
+  border-style: solid;
+  display: flex;
+  justify-content:center;
+  align-items:center;  
+  }/**/
+
 @media screen and (max-width:500px) {
   .cabecera{
     height:5rem;
     line-height: 5rem;
   }
+  
+  .integrantes{padding: .5rem;} /**/
+  
   .cabecera_titulo-pagina, 
   .int-liz__nombre,.int-fiorella__nombre,
   .int-thabata__nombre,.int-cielo__nombre,
   .int-vanessa__nombre,.int-esly__nombre{font-size: 1.125rem;}
+
+  .int-liz, .int-fiorella,
+  .int-thabata, .int-cielo,
+  .int-vanessa, .int-esly{
+    margin:1rem 0;  
+  }   /**/
+  .int-liz__foto, .int-fiorella__foto, 
+  .int-thabata__foto, .int-cielo__foto, 
+  .int-vanessa__foto, .int-esly__foto{
+    border-width: 2px;
+    width: 2rem;
+    height:2rem;  
+  }/**/
    
   .int-liz__texto,.int-fiorella__texto,
   .int-thabata__texto,.int-cielo__texto,
@@ -95,6 +125,7 @@ Padre el body
     height:8rem;
     line-height: 8rem;
   }
+  
   .cabecera_titulo-pagina{font-size: 1.75rem;}
   
   .int-liz__nombre,.int-fiorella__nombre,
