@@ -70,6 +70,12 @@ Padre el body
   font-family: "Droid Serif","Open Sans", serif,sans-serif;
 }
 
+.int-liz, .int-fiorella,
+.int-thabata, .int-cielo,
+.int-vanessa, .int-esly{
+  position: relative;
+}/*para posicionar la foto perfil*/
+
 .int-liz__foto, .int-fiorella__foto, 
 .int-thabata__foto, .int-cielo__foto, 
 .int-vanessa__foto, .int-esly__foto{
@@ -79,6 +85,7 @@ Padre el body
   justify-content:center;
   align-items:center;  
   }/**/
+  
 
 @media screen and (max-width:500px) {
   .cabecera{
@@ -98,13 +105,24 @@ Padre el body
   .int-vanessa, .int-esly{
     margin:1rem 0;  
   }   /**/
+  
   .int-liz__foto, .int-fiorella__foto, 
   .int-thabata__foto, .int-cielo__foto, 
   .int-vanessa__foto, .int-esly__foto{
+    position: absolute;
+   
     border-width: 2px;
     width: 2rem;
     height:2rem;  
   }/**/
+  
+  .int-liz__descripcion, .int-fiorella__descripcion,
+  .int-thabata__descripcion, .int-cielo__descripcion,
+  .int-vanessa__descripcion, .int-esly__descripcion {
+    position: relative;
+    
+    margin-left: 3rem;
+  } /*A la izquierda para no tapar la foto*/
    
   .int-liz__texto,.int-fiorella__texto,
   .int-thabata__texto,.int-cielo__texto,
