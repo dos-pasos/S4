@@ -15,7 +15,7 @@ Descripción: Los selectores deben moverse a la propiedad que se requiera.
 */
 .cabecera{background: #303e49;}
 .integrantes{background-color: #e9f0f5;}
-
+.integrantes::before{background-color: #d7e4ed;}
 .int-liz__descripcion, .int-fiorella__descripcion,
 .int-thabata__descripcion, .int-cielo__descripcion,
 .int-vanessa__descripcion, .int-esly__descripcion{background-color: #ffffff;}
@@ -70,6 +70,16 @@ Padre el body
   font-family: "Droid Serif","Open Sans", serif,sans-serif;
 }
 
+
+.integrantes{position: relative;}
+.integrantes::before{
+  content:"";
+  position: absolute;
+  top: 0;
+  width: 3px;
+  height: 100%;
+}
+
 .int-liz, .int-fiorella,
 .int-thabata, .int-cielo,
 .int-vanessa, .int-esly{
@@ -94,7 +104,7 @@ Padre el body
   }
   
   .integrantes{padding: .5rem;} /**/
-  
+  .integrantes::before{left: 15px;}
   .cabecera_titulo-pagina, 
   .int-liz__nombre,.int-fiorella__nombre,
   .int-thabata__nombre,.int-cielo__nombre,
@@ -144,6 +154,8 @@ Padre el body
     line-height: 8rem;
   }
   
+  .integrantes::before{left: 50%;}  
+  
   .cabecera_titulo-pagina{font-size: 1.75rem;}
   
   .int-liz__nombre,.int-fiorella__nombre,
@@ -171,6 +183,8 @@ Padre el body
   }
   .cabecera_titulo-pagina{font-size: 3rem;}
   
+  .integrantes::before{left: 50%;}
+   
   .int-liz__nombre,.int-fiorella__nombre,
   .int-thabata__nombre,.int-cielo__nombre,
   .int-vanessa__nombre,.int-esly__nombre{font-size: 1.125rem;}
