@@ -104,7 +104,7 @@ Padre el body
   }
   
   .integrantes{padding: .5rem;} /**/
-  .integrantes::before{left: 15px;}
+  .integrantes::before{left: 25px;}
   .cabecera_titulo-pagina, 
   .int-liz__nombre,.int-fiorella__nombre,
   .int-thabata__nombre,.int-cielo__nombre,
