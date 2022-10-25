@@ -133,6 +133,21 @@ Padre el body
     
     margin-left: 3rem;
   } /*A la izquierda para no tapar la foto*/
+  
+  .int-liz__descripcion::before, .int-fiorella__descripcion::before,
+  .int-thabata__descripcion::before, .int-cielo__descripcion::before,
+  .int-vanessa__descripcion::before, .int-esly__descripcion::before {
+    content:"";
+    position: absolute;
+    top: 1rem;
+    right: 100%;
+    box-sizing:content-box;
+    border:7px solid transparent;
+    width: 0;
+    height: 0;
+    border-right: 7px solid white;    
+  }
+ 
    
   .int-liz__texto,.int-fiorella__texto,
   .int-thabata__texto,.int-cielo__texto,
