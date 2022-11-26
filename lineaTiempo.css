@@ -95,7 +95,12 @@ Padre el body
   justify-content:center;
   align-items:center;  
   }/**/
-  
+.int-liz__descripcion, .int-fiorella__descripcion,
+.int-thabata__descripcion, .int-cielo__descripcion,
+.int-vanessa__descripcion, .int-esly__descripcion {
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 0 #d7e4ed;
+}  
 
 @media screen and (max-width:500px) {
   .cabecera{
@@ -105,10 +110,7 @@ Padre el body
   
   .integrantes{padding: .5rem;} /**/
   .integrantes::before{left: 25px;}
-  .cabecera_titulo-pagina, 
-  .int-liz__nombre,.int-fiorella__nombre,
-  .int-thabata__nombre,.int-cielo__nombre,
-  .int-vanessa__nombre,.int-esly__nombre{font-size: 1.125rem;}
+
 
   .int-liz__nombre,.int-fiorella__nombre,
   .int-thabata__nombre,.int-cielo__nombre,
@@ -157,19 +159,22 @@ Padre el body
     border-right: 7px solid white;    
   }
  
+  .int-liz__leer-mas, .int-fiorella__leer-mas,
+  .int-thabata__leer-mas, .int-cielo__leer-mas,
+  .int-vanessa__leer-mas, .int-esly__leer-mas,
+
+  .int-liz__cumpleanios, .int-fiorella__cumpleanios,
+  .int-thabata__cumpleanios, .int-cielo__cumpleanios,
+  .int-vanessa__cumpleanios, .int-esly__cumpleanios{font-size: 0.85rem;}  
    
   .int-liz__texto,.int-fiorella__texto,
   .int-thabata__texto,.int-cielo__texto,
   .int-vanessa__texto,.int-esly__texto{font-size: 1rem;}
   
-  .int-liz__leer-mas, .int-fiorella__leer-mas,
-  .int-thabata__leer-mas, .int-cielo__leer-mas,
-  .int-vanessa__leer-mas, .int-esly__leer-mas{font-size: 0.85rem;}
-
-  .int-liz__cumpleanios, .int-fiorella__cumpleanios,
-  .int-thabata__cumpleanios, .int-cielo__cumpleanios,
-  .int-vanessa__cumpleanios, .int-esly__cumpleanios{font-size: 0.85rem;}  
-  
+  .cabecera_titulo-pagina, 
+  .int-liz__nombre,.int-fiorella__nombre,
+  .int-thabata__nombre,.int-cielo__nombre,
+  .int-vanessa__nombre,.int-esly__nombre{font-size: 1.125rem;}
 }
 
 @media screen and (min-width:501px) and (max-width:1000px){
