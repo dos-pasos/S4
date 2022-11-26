@@ -23,6 +23,9 @@ Descripción: Los selectores deben moverse a la propiedad que se requiera.
 .int-liz__leer-mas, .int-fiorella__leer-mas,
 .int-thabata__leer-mas, .int-cielo__leer-mas,
 .int-vanessa__leer-mas, .int-esly__leer-mas {background-color: #acb7c0;}
+.int-liz__foto, .int-fiorella__foto, 
+.int-thabata__foto, .int-cielo__foto, 
+.int-vanessa__foto, .int-esly__foto{background-color: #f0ca45}
 
 .int-liz__foto, .int-fiorella__foto, 
 .int-thabata__foto, .int-cielo__foto, 
