@@ -110,6 +110,13 @@ Padre el body
   .int-thabata__nombre,.int-cielo__nombre,
   .int-vanessa__nombre,.int-esly__nombre{font-size: 1.125rem;}
 
+  .int-liz__nombre,.int-fiorella__nombre,
+  .int-thabata__nombre,.int-cielo__nombre,
+  .int-vanessa__nombre,.int-esly__nombre,
+  .int-liz__texto,.int-fiorella__texto,
+  .int-thabata__texto,.int-cielo__texto,
+  .int-vanessa__texto,.int-esly__texto{margin: 0 0 0.5rem 0;}
+
   .int-liz, .int-fiorella,
   .int-thabata, .int-cielo,
   .int-vanessa, .int-esly{
@@ -132,6 +139,8 @@ Padre el body
     position: relative;
     
     margin-left: 3rem;
+    padding: 0.7rem 0.725rem;
+   
   } /*A la izquierda para no tapar la foto*/
   
   .int-liz__descripcion::before, .int-fiorella__descripcion::before,
