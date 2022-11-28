@@ -294,6 +294,12 @@ Padre el body
     height: 3rem;
   }
   
+  .int-liz__descripcion, .int-fiorella__descripcion,
+  .int-thabata__descripcion, .int-cielo__descripcion,
+  .int-vanessa__descripcion, .int-esly__descripcion {
+    width: 45%;
+    padding: .5rem;
+  }  
    
   .int-liz__nombre,.int-fiorella__nombre,
   .int-thabata__nombre,.int-cielo__nombre,
