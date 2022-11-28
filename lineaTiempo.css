@@ -284,7 +284,7 @@ Padre el body
     line-height: 9rem;
   }
   .cabecera_titulo-pagina{font-size: 3rem;}
-  
+  .integrantes{padding: 1.5rem;}
   .integrantes::before{left: 50%;}
   
   .int-liz__foto, .int-fiorella__foto, 
@@ -300,7 +300,15 @@ Padre el body
     width: 45%;
     padding: .5rem;
   }  
-   
+ 
+  .int-liz__nombre,.int-fiorella__nombre,
+  .int-thabata__nombre,.int-cielo__nombre,
+  .int-vanessa__nombre,.int-esly__nombre,
+  .int-liz__texto,.int-fiorella__texto,
+  .int-thabata__texto,.int-cielo__texto,
+  .int-vanessa__texto,.int-esly__texto{margin: 0 0 1rem 0;}
+
+  
   .int-liz__nombre,.int-fiorella__nombre,
   .int-thabata__nombre,.int-cielo__nombre,
   .int-vanessa__nombre,.int-esly__nombre{font-size: 1.125rem;}
