@@ -210,9 +210,22 @@ Padre el body
   .integrantes{padding: 1rem;}
   .integrantes::before{left: 32px;}  
   
+  .int-liz__nombre,.int-fiorella__nombre,
+  .int-thabata__nombre,.int-cielo__nombre,
+  .int-vanessa__nombre,.int-esly__nombre,
+  .int-liz__texto,.int-fiorella__texto,
+  .int-thabata__texto,.int-cielo__texto,
+  .int-vanessa__texto,.int-esly__texto{margin: 0 0 0.5rem 0;}
   
   .cabecera_titulo-pagina{font-size: 1.75rem;}
   
+  .int-liz, .int-fiorella,
+  .int-thabata, .int-cielo,
+  .int-vanessa, .int-esly{
+    margin:1rem 0;  
+  }   /**/
+ 
+    
   .int-liz__foto, .int-fiorella__foto, 
   .int-thabata__foto, .int-cielo__foto, 
   .int-vanessa__foto, .int-esly__foto{
@@ -229,7 +242,7 @@ Padre el body
     position: relative;
     
     margin-left: 3rem;
-    padding: 0.7rem 0.725rem;
+    padding: 0.7rem 1.25rem;
    
   } /*A la izquierda para no tapar la foto*/
   
@@ -249,11 +262,11 @@ Padre el body
   
   .int-liz__nombre,.int-fiorella__nombre,
   .int-thabata__nombre,.int-cielo__nombre,
-  .int-vanessa__nombre,.int-esly__nombre{font-size: 1.125rem;}
+  .int-vanessa__nombre,.int-esly__nombre{font-size: 1.250rem;}
    
   .int-liz__texto,.int-fiorella__texto,
   .int-thabata__texto,.int-cielo__texto,
-  .int-vanessa__texto,.int-esly__texto{font-size: 1rem;}
+  .int-vanessa__texto,.int-esly__texto{font-size: 1.15rem;}
   
   .int-liz__leer-mas, .int-fiorella__leer-mas,
   .int-thabata__leer-mas, .int-cielo__leer-mas,
