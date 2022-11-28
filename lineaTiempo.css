@@ -207,9 +207,45 @@ Padre el body
     line-height: 8rem;
   }
   
-  .integrantes::before{left: 50%;}  
+  .integrantes{padding: 1rem;}
+  .integrantes::before{left: 32px;}  
+  
   
   .cabecera_titulo-pagina{font-size: 1.75rem;}
+  
+  .int-liz__foto, .int-fiorella__foto, 
+  .int-thabata__foto, .int-cielo__foto, 
+  .int-vanessa__foto, .int-esly__foto{
+    position: absolute;
+   
+    border-width: 2px;
+    width: 2rem;
+    height:2rem;  
+  }
+  
+  .int-liz__descripcion, .int-fiorella__descripcion,
+  .int-thabata__descripcion, .int-cielo__descripcion,
+  .int-vanessa__descripcion, .int-esly__descripcion {
+    position: relative;
+    
+    margin-left: 3rem;
+    padding: 0.7rem 0.725rem;
+   
+  } /*A la izquierda para no tapar la foto*/
+  
+  .int-liz__descripcion::before, .int-fiorella__descripcion::before,
+  .int-thabata__descripcion::before, .int-cielo__descripcion::before,
+  .int-vanessa__descripcion::before, .int-esly__descripcion::before{
+    content: "";    
+    position: absolute;
+    right: 100%;
+    top:1rem;
+    border-width: 7px;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    
+  }  
   
   .int-liz__nombre,.int-fiorella__nombre,
   .int-thabata__nombre,.int-cielo__nombre,
