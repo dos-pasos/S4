@@ -286,6 +286,15 @@ Padre el body
   .cabecera_titulo-pagina{font-size: 3rem;}
   .integrantes{padding: 1.5rem;}
   .integrantes::before{left: 50%;}
+
+  .int-liz__foto, .int-fiorella__foto, 
+  .int-thabata__foto, .int-cielo__foto, 
+  .int-vanessa__foto, .int-esly__foto{
+    position: absolute;
+    top:0;
+    left: 50%;
+    margin-left: -1.7rem;
+  }
   
   .int-liz__foto, .int-fiorella__foto, 
   .int-thabata__foto, .int-cielo__foto, 
