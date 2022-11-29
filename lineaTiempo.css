@@ -310,6 +310,11 @@ Padre el body
     padding: .5rem;
   }  
  
+   .int-fiorella__descripcion,
+   .int-cielo__descripcion,
+   .int-esly__descripcion {
+     
+   }
 
   .int-liz, .int-fiorella,
   .int-thabata, .int-cielo,
